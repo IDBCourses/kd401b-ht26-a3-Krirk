@@ -1,0 +1,18 @@
+/* properties to remember:
+ color: color;
+ font-family: font, family;
+ margin: margin-amount + px;
+ background-color: color;
+ font-size: size + px;
+ padding: padding-amount + px;
+*/
+:root {
+  --accent: hsl(190, 80%, 45%);
+}
+
+.intro {
+  color: var(--accent);
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}

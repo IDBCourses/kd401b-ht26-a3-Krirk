@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,12 +6,17 @@
     <title>Portfolio: [Insert Name Here]</title>
     <script src="script.js" type="module"></script>
     <!-- Optional: Link to a CSS file if desired -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/color_darkmode.css" />
+    <link id="styling_color" rel="stylesheet" href="css/color_lightmode.css" />
+    <link rel="stylesheet" href="css/textstyle_accessible.css" />
+    <link id="styling_font" rel="stylesheet" href="css/textstyle_normal.css" />
   </head>
 
   <body>
     <header>
       <h1>Blog Site Title</h1>
+      <button id="btn_dm" type="button">Dark mode</button>
+      <button id="btn_font" type="button">Accessibility</button>
       <nav>
         <ul>
           <li><a href=".">Home</a></li>
@@ -24,9 +29,10 @@
     <main>
       <!-- Blog Post 1 -->
       <article>
-        <h2>Title of the First Blog Post</h2>
+        <h2 class="intro">Title of the First Blog Post</h2>
         <p>
-          <time datetime="2025-11-11">November 11, 2025</time> by Author Name
+          <time datetime="2026-11-15">November 15, 2026</time> by Christian
+          Norén
         </p>
         <section>
           <h3>Introduction</h3>
